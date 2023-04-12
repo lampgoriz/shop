@@ -1,0 +1,25 @@
+.navbar__container{
+  background-color: #cbd6f6;
+  padding: 10px 0;
+}
+
+.navbar__body{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: 800;
+    &:hover{
+      text-decoration: underline;
+      color: #000;
+    }
+  }
+  a.active__link{
+    text-decoration: underline;
+    color: #000;
+  }
+}
+

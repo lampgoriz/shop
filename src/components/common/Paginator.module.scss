@@ -1,0 +1,14 @@
+.page__link{
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+  color: #8a8a8a;
+  &:hover{
+    color: #000;
+  }
+}
+
+.active{
+  color: #000;
+  text-decoration: underline;
+}
